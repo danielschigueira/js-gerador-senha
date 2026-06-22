@@ -87,21 +87,19 @@ body {
     margin: 0 auto;
 }
 
+/* ESTILOS DOS BOTÕES AJUSTADOS NESTA AULA */
 .parametro-senha-botoes {
     display: flex;
     justify-content: center;
 }
 
-/* ========================================================
-   ALTERAÇÕES SOLICITADAS NA AULA (BOTÕES E TEXTO CENTRAL)
-   ======================================================== */
 .parametro-senha__botao {
     background-color: var(--fundo-texto);
     color: var(--branco);
     border: 2px solid var(--borda);
     padding: 24px;
     font-size: 24px;
-    cursor: pointer; /* Modificado na aula: indica elemento clicável */
+    cursor: pointer; /* Adiciona a mãozinha do mouse */
 }
 
 .parametro-senha__texto {
@@ -109,9 +107,9 @@ body {
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
     margin: 0;
-    font-size: 24px; /* Modificado na aula: ajustado para 24px */
+    font-size: 24px; /* Tamanho ajustado na revisão */
 }
-/* ======================================================== */
+/* -------------------------------------- */
 
 label {
     font-size: 20px;
